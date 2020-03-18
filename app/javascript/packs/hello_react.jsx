@@ -5,6 +5,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Landing from '../components/landing.jsx'
+// Import styles.
+// import '../../../node_modules/react-mdl/extra/material.js';
+// import '../../../node_modules/react-mdl/extra/material.css';
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
