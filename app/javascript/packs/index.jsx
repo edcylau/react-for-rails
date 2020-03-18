@@ -4,14 +4,18 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Landing from '../components/landing.jsx'
+import App from '../components/app.jsx'
 // Import styles.
 // import '../../../node_modules/react-mdl/extra/material.js';
 // import '../../../node_modules/react-mdl/extra/material.css';
+import { BrowserRouter } from 'react-router-dom';
+
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <Landing />,
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
     document.body.appendChild(document.createElement('div')),
   )
 })

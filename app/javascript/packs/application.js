@@ -17,3 +17,4 @@
 // const imagePath = (name) => images(name, true)
 // Import styles.
 import 'react-mdl/extra/material';
+import 'react-router-dom';
