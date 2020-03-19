@@ -1,3 +1,8 @@
 /* app/assets/stylesheets/application.scss */
 
 @import "pages"; /* Will import `_pages.scss` */
+
+
+// Your CSS partials
+@import "components/index";
+@import "components/app";
